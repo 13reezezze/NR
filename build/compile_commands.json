@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/zhang/Files/CProjec/NumberRecognition/build",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include/eigen3 -g -arch arm64 -o CMakeFiles/number_recognition.dir/main.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/main.cpp",
+  "file": "/Users/zhang/Files/CProjec/NumberRecognition/main.cpp",
+  "output": "CMakeFiles/number_recognition.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/zhang/Files/CProjec/NumberRecognition/build",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include/eigen3 -g -arch arm64 -o CMakeFiles/number_recognition.dir/util.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/util.cpp",
+  "file": "/Users/zhang/Files/CProjec/NumberRecognition/util.cpp",
+  "output": "CMakeFiles/number_recognition.dir/util.cpp.o"
+},
+{
+  "directory": "/Users/zhang/Files/CProjec/NumberRecognition/build",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include/eigen3 -g -arch arm64 -o CMakeFiles/number_recognition.dir/neural_net.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/neural_net.cpp",
+  "file": "/Users/zhang/Files/CProjec/NumberRecognition/neural_net.cpp",
+  "output": "CMakeFiles/number_recognition.dir/neural_net.cpp.o"
+},
+{
+  "directory": "/Users/zhang/Files/CProjec/NumberRecognition/build",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include/eigen3 -g -arch arm64 -o CMakeFiles/number_recognition.dir/mnist_loader.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp",
+  "file": "/Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp",
+  "output": "CMakeFiles/number_recognition.dir/mnist_loader.cpp.o"
+}
+]

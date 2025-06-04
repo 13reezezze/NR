@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/number_recognition.dir/main.cpp.o CMakeFiles/number_recognition.dir/util.cpp.o CMakeFiles/number_recognition.dir/neural_net.cpp.o CMakeFiles/number_recognition.dir/mnist_loader.cpp.o -o number_recognition

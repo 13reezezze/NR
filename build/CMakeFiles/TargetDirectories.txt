@@ -1,0 +1,3 @@
+/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles/number_recognition.dir
+/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles/edit_cache.dir
+/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles/rebuild_cache.dir
