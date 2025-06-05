@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/number_recognition.dir/neural_net.cpp.o.d"
   "CMakeFiles/number_recognition.dir/util.cpp.o"
   "CMakeFiles/number_recognition.dir/util.cpp.o.d"
+  "CMakeFiles/number_recognition.dir/web_server.cpp.o"
+  "CMakeFiles/number_recognition.dir/web_server.cpp.o.d"
   "number_recognition"
   "number_recognition.pdb"
 )

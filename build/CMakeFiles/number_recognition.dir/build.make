@@ -86,19 +86,19 @@ CMakeFiles/number_recognition.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/number_recognition.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhang/Files/CProjec/NumberRecognition/main.cpp -o CMakeFiles/number_recognition.dir/main.cpp.s
 
-CMakeFiles/number_recognition.dir/util.cpp.o: CMakeFiles/number_recognition.dir/flags.make
-CMakeFiles/number_recognition.dir/util.cpp.o: /Users/zhang/Files/CProjec/NumberRecognition/util.cpp
-CMakeFiles/number_recognition.dir/util.cpp.o: CMakeFiles/number_recognition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/number_recognition.dir/util.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/number_recognition.dir/util.cpp.o -MF CMakeFiles/number_recognition.dir/util.cpp.o.d -o CMakeFiles/number_recognition.dir/util.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/util.cpp
+CMakeFiles/number_recognition.dir/mnist_loader.cpp.o: CMakeFiles/number_recognition.dir/flags.make
+CMakeFiles/number_recognition.dir/mnist_loader.cpp.o: /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp
+CMakeFiles/number_recognition.dir/mnist_loader.cpp.o: CMakeFiles/number_recognition.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/number_recognition.dir/mnist_loader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/number_recognition.dir/mnist_loader.cpp.o -MF CMakeFiles/number_recognition.dir/mnist_loader.cpp.o.d -o CMakeFiles/number_recognition.dir/mnist_loader.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp
 
-CMakeFiles/number_recognition.dir/util.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/number_recognition.dir/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhang/Files/CProjec/NumberRecognition/util.cpp > CMakeFiles/number_recognition.dir/util.cpp.i
+CMakeFiles/number_recognition.dir/mnist_loader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/number_recognition.dir/mnist_loader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp > CMakeFiles/number_recognition.dir/mnist_loader.cpp.i
 
-CMakeFiles/number_recognition.dir/util.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/number_recognition.dir/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhang/Files/CProjec/NumberRecognition/util.cpp -o CMakeFiles/number_recognition.dir/util.cpp.s
+CMakeFiles/number_recognition.dir/mnist_loader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/number_recognition.dir/mnist_loader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp -o CMakeFiles/number_recognition.dir/mnist_loader.cpp.s
 
 CMakeFiles/number_recognition.dir/neural_net.cpp.o: CMakeFiles/number_recognition.dir/flags.make
 CMakeFiles/number_recognition.dir/neural_net.cpp.o: /Users/zhang/Files/CProjec/NumberRecognition/neural_net.cpp
@@ -114,37 +114,111 @@ CMakeFiles/number_recognition.dir/neural_net.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/number_recognition.dir/neural_net.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhang/Files/CProjec/NumberRecognition/neural_net.cpp -o CMakeFiles/number_recognition.dir/neural_net.cpp.s
 
-CMakeFiles/number_recognition.dir/mnist_loader.cpp.o: CMakeFiles/number_recognition.dir/flags.make
-CMakeFiles/number_recognition.dir/mnist_loader.cpp.o: /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp
-CMakeFiles/number_recognition.dir/mnist_loader.cpp.o: CMakeFiles/number_recognition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/number_recognition.dir/mnist_loader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/number_recognition.dir/mnist_loader.cpp.o -MF CMakeFiles/number_recognition.dir/mnist_loader.cpp.o.d -o CMakeFiles/number_recognition.dir/mnist_loader.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp
+CMakeFiles/number_recognition.dir/util.cpp.o: CMakeFiles/number_recognition.dir/flags.make
+CMakeFiles/number_recognition.dir/util.cpp.o: /Users/zhang/Files/CProjec/NumberRecognition/util.cpp
+CMakeFiles/number_recognition.dir/util.cpp.o: CMakeFiles/number_recognition.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/number_recognition.dir/util.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/number_recognition.dir/util.cpp.o -MF CMakeFiles/number_recognition.dir/util.cpp.o.d -o CMakeFiles/number_recognition.dir/util.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/util.cpp
 
-CMakeFiles/number_recognition.dir/mnist_loader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/number_recognition.dir/mnist_loader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp > CMakeFiles/number_recognition.dir/mnist_loader.cpp.i
+CMakeFiles/number_recognition.dir/util.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/number_recognition.dir/util.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhang/Files/CProjec/NumberRecognition/util.cpp > CMakeFiles/number_recognition.dir/util.cpp.i
 
-CMakeFiles/number_recognition.dir/mnist_loader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/number_recognition.dir/mnist_loader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp -o CMakeFiles/number_recognition.dir/mnist_loader.cpp.s
+CMakeFiles/number_recognition.dir/util.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/number_recognition.dir/util.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhang/Files/CProjec/NumberRecognition/util.cpp -o CMakeFiles/number_recognition.dir/util.cpp.s
+
+CMakeFiles/number_recognition.dir/web_server.cpp.o: CMakeFiles/number_recognition.dir/flags.make
+CMakeFiles/number_recognition.dir/web_server.cpp.o: /Users/zhang/Files/CProjec/NumberRecognition/web_server.cpp
+CMakeFiles/number_recognition.dir/web_server.cpp.o: CMakeFiles/number_recognition.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/number_recognition.dir/web_server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/number_recognition.dir/web_server.cpp.o -MF CMakeFiles/number_recognition.dir/web_server.cpp.o.d -o CMakeFiles/number_recognition.dir/web_server.cpp.o -c /Users/zhang/Files/CProjec/NumberRecognition/web_server.cpp
+
+CMakeFiles/number_recognition.dir/web_server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/number_recognition.dir/web_server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhang/Files/CProjec/NumberRecognition/web_server.cpp > CMakeFiles/number_recognition.dir/web_server.cpp.i
+
+CMakeFiles/number_recognition.dir/web_server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/number_recognition.dir/web_server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhang/Files/CProjec/NumberRecognition/web_server.cpp -o CMakeFiles/number_recognition.dir/web_server.cpp.s
 
 # Object files for target number_recognition
 number_recognition_OBJECTS = \
 "CMakeFiles/number_recognition.dir/main.cpp.o" \
-"CMakeFiles/number_recognition.dir/util.cpp.o" \
+"CMakeFiles/number_recognition.dir/mnist_loader.cpp.o" \
 "CMakeFiles/number_recognition.dir/neural_net.cpp.o" \
-"CMakeFiles/number_recognition.dir/mnist_loader.cpp.o"
+"CMakeFiles/number_recognition.dir/util.cpp.o" \
+"CMakeFiles/number_recognition.dir/web_server.cpp.o"
 
 # External object files for target number_recognition
 number_recognition_EXTERNAL_OBJECTS =
 
 number_recognition: CMakeFiles/number_recognition.dir/main.cpp.o
-number_recognition: CMakeFiles/number_recognition.dir/util.cpp.o
-number_recognition: CMakeFiles/number_recognition.dir/neural_net.cpp.o
 number_recognition: CMakeFiles/number_recognition.dir/mnist_loader.cpp.o
+number_recognition: CMakeFiles/number_recognition.dir/neural_net.cpp.o
+number_recognition: CMakeFiles/number_recognition.dir/util.cpp.o
+number_recognition: CMakeFiles/number_recognition.dir/web_server.cpp.o
 number_recognition: CMakeFiles/number_recognition.dir/build.make
+number_recognition: /opt/homebrew/lib/libopencv_gapi.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_stitching.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_alphamat.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_aruco.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_bgsegm.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_bioinspired.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_ccalib.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_dnn_objdetect.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_dnn_superres.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_dpm.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_face.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_freetype.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_fuzzy.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_hfs.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_img_hash.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_intensity_transform.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_line_descriptor.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_mcc.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_quality.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_rapid.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_reg.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_rgbd.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_saliency.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_sfm.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_signal.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_stereo.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_structured_light.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_superres.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_surface_matching.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_tracking.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_videostab.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_viz.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_wechat_qrcode.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_xfeatures2d.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_xobjdetect.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_xphoto.4.11.0.dylib
+number_recognition: /opt/homebrew/Cellar/openssl@3/3.5.0/lib/libssl.dylib
+number_recognition: /opt/homebrew/Cellar/openssl@3/3.5.0/lib/libcrypto.dylib
+number_recognition: /opt/homebrew/lib/libopencv_shape.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_highgui.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_datasets.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_plot.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_text.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_ml.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_phase_unwrapping.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_optflow.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_ximgproc.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_video.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_videoio.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_imgcodecs.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_objdetect.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_calib3d.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_dnn.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_features2d.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_flann.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_photo.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_imgproc.4.11.0.dylib
+number_recognition: /opt/homebrew/lib/libopencv_core.4.11.0.dylib
 number_recognition: CMakeFiles/number_recognition.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable number_recognition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable number_recognition"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/number_recognition.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,24 +8,24 @@ void train_model() {
     std::string train_image_path = "../data/train-images-idx3-ubyte";
     std::string train_label_path = "../data/train-labels-idx1-ubyte";
 
-    std::cout << "Attempting to open train image file: " << train_image_path << std::endl;
-    std::cout << "Attempting to open train label file: " << train_label_path << std::endl;
+    std::cout << "正在打开训练集数据: " << train_image_path << std::endl;
+    std::cout << "正在打开标签集数据: " << train_label_path << std::endl;
 
     bool ok1 = load_mnist_images(train_image_path, train_images);
     bool ok2 = load_mnist_labels(train_label_path, train_labels, 10);
 
     if (!ok1 || !ok2) {
-        std::cerr << "Failed to load MNIST train data" << std::endl;
+        std::cerr << "无法打开！" << std::endl;
         return;
     }
 
-    std::cout << "Successfully loaded " << train_images.size() << " images and "
-              << train_labels.size() << " labels" << std::endl;
+    std::cout << "加载成功 " << train_images.size() << " 个图像和 "
+              << train_labels.size() << " 个标签" << std::endl;
 
     NeuralNetwork net(784, 128, 10);
     net.train(train_images, train_labels, 10, 0.1);
     net.save_parameters("../output/model_params.bin");
-    std::cout << "Model parameters saved to ../output/model_params.bin" << std::endl;
+    std::cout << "模型参数已储存" << std::endl;
 }
 
 void test_model() {
@@ -33,19 +33,19 @@ void test_model() {
     std::string test_image_path = "../data/t10k-images-idx3-ubyte";
     std::string test_label_path = "../data/t10k-labels-idx1-ubyte";
 
-    std::cout << "Attempting to open test image file: " << test_image_path << std::endl;
-    std::cout << "Attempting to open test label file: " << test_label_path << std::endl;
+    std::cout << "正在打开测试图像: " << test_image_path << std::endl;
+    std::cout << "正在打开测试标签: " << test_label_path << std::endl;
 
     bool ok1 = load_mnist_images(test_image_path, test_images);
     bool ok2 = load_mnist_labels(test_label_path, test_labels, 10);
 
     if (!ok1 || !ok2) {
-        std::cerr << "Failed to load MNIST test data" << std::endl;
+        std::cerr << "正在加载测试集数据" << std::endl;
         return;
     }
 
-    std::cout << "Successfully loaded " << test_images.size() << " test images and "
-              << test_labels.size() << " test labels" << std::endl;
+    std::cout << "加载成功 " << test_images.size() << " 个测试数据和 "
+              << test_labels.size() << " 个测试标签" << std::endl;
 
     NeuralNetwork net(784, 128, 10);
     net.load_parameters("../output/model_params.bin");
@@ -58,12 +58,15 @@ void test_model() {
         if (pred == label_index) correct++;
     }
     double accuracy = 100.0 * correct / test_images.size();
-    std::cout << "Test Accuracy: " << accuracy << "% (" << correct << "/" << test_images.size() << ")" << std::endl;
+    std::cout << "测试准确率: " << accuracy << "% (" << correct << "/" << test_images.size() << ")" << std::endl;
 }
 
 int main(int argc, char* argv[]) {
     if (argc > 1 && std::string(argv[1]) == "train") {
         train_model();
+    } else if (argc > 1 && std::string(argv[1]) == "try") {
+        extern void run_server();
+        run_server();
     } else {
         test_model();
     }

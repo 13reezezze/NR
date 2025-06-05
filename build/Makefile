@@ -225,6 +225,30 @@ util.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_recognition.dir/build.make CMakeFiles/number_recognition.dir/util.cpp.s
 .PHONY : util.cpp.s
 
+web_server.o: web_server.cpp.o
+.PHONY : web_server.o
+
+# target to build an object file
+web_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_recognition.dir/build.make CMakeFiles/number_recognition.dir/web_server.cpp.o
+.PHONY : web_server.cpp.o
+
+web_server.i: web_server.cpp.i
+.PHONY : web_server.i
+
+# target to preprocess a source file
+web_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_recognition.dir/build.make CMakeFiles/number_recognition.dir/web_server.cpp.i
+.PHONY : web_server.cpp.i
+
+web_server.s: web_server.cpp.s
+.PHONY : web_server.s
+
+# target to generate assembly for a file
+web_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_recognition.dir/build.make CMakeFiles/number_recognition.dir/web_server.cpp.s
+.PHONY : web_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -246,6 +270,9 @@ help:
 	@echo "... util.o"
 	@echo "... util.i"
 	@echo "... util.s"
+	@echo "... web_server.o"
+	@echo "... web_server.i"
+	@echo "... web_server.s"
 .PHONY : help
 
 

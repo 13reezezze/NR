@@ -85,12 +85,12 @@ clean: CMakeFiles/number_recognition.dir/clean
 CMakeFiles/number_recognition.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_recognition.dir/build.make CMakeFiles/number_recognition.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_recognition.dir/build.make CMakeFiles/number_recognition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target number_recognition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target number_recognition"
 .PHONY : CMakeFiles/number_recognition.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/number_recognition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/number_recognition.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles 0
 .PHONY : CMakeFiles/number_recognition.dir/rule
@@ -102,7 +102,7 @@ number_recognition: CMakeFiles/number_recognition.dir/rule
 # codegen rule for target.
 CMakeFiles/number_recognition.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_recognition.dir/build.make CMakeFiles/number_recognition.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target number_recognition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/zhang/Files/CProjec/NumberRecognition/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target number_recognition"
 .PHONY : CMakeFiles/number_recognition.dir/codegen
 
 # clean rule for target.

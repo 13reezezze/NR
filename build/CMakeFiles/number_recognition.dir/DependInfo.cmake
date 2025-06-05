@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/zhang/Files/CProjec/NumberRecognition/mnist_loader.cpp" "CMakeFiles/number_recognition.dir/mnist_loader.cpp.o" "gcc" "CMakeFiles/number_recognition.dir/mnist_loader.cpp.o.d"
   "/Users/zhang/Files/CProjec/NumberRecognition/neural_net.cpp" "CMakeFiles/number_recognition.dir/neural_net.cpp.o" "gcc" "CMakeFiles/number_recognition.dir/neural_net.cpp.o.d"
   "/Users/zhang/Files/CProjec/NumberRecognition/util.cpp" "CMakeFiles/number_recognition.dir/util.cpp.o" "gcc" "CMakeFiles/number_recognition.dir/util.cpp.o.d"
+  "/Users/zhang/Files/CProjec/NumberRecognition/web_server.cpp" "CMakeFiles/number_recognition.dir/web_server.cpp.o" "gcc" "CMakeFiles/number_recognition.dir/web_server.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
