@@ -2,7 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include <cstdint>
-
+//从二进制文件中读取32位无符号整数。
 static uint32_t read_uint32(std::ifstream& f) {
     uint32_t result = 0;
     for (int i = 0; i < 4; ++i) {
@@ -11,14 +11,14 @@ static uint32_t read_uint32(std::ifstream& f) {
     }
     return result;
 }
-
+//检查并读取图像数量、行数、列数等元数据
 bool load_mnist_images(const std::string& path, std::vector<Eigen::VectorXd>& images) {
     std::ifstream file(path, std::ios::binary);
     if (!file.is_open()) {
         std::cerr << "Error opening image file: " << path << std::endl;
         return false;
     }
-
+    //读取魔数（magic number）并验证是否为2051，这是MNIST图像文件的标识
     uint32_t magic = read_uint32(file);
     if (magic != 2051) {
         std::cerr << "Invalid MNIST image file magic number." << std::endl;

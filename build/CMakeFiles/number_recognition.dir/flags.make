@@ -6,7 +6,7 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/opt/homebrew/include -I/Users/zhang/Files/CProjec/NumberRecognition/. -isystem /opt/homebrew/Cellar/opencv/4.11.0_1/include/opencv4 -isystem /opt/homebrew/include/eigen3 -isystem /opt/homebrew/Cellar/openssl@3/3.5.0/include
 
-CXX_FLAGSarm64 = -std=c++17 -arch arm64
+CXX_FLAGSarm64 = -g -std=c++17 -arch arm64
 
-CXX_FLAGS = -std=c++17 -arch arm64
+CXX_FLAGS = -g -std=c++17 -arch arm64
 

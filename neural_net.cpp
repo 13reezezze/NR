@@ -21,7 +21,7 @@ NeuralNetwork::NeuralNetwork(int input_size, int hidden_size, int output_size)
 
     for (int i = 0; i < hidden_size; ++i)
         for (int j = 0; j < input_size; ++j)
-            W1(i, j) = dist(gen) * std::sqrt(1.0 / input_size);  // Xavier-like init
+            W1(i, j) = dist(gen) * std::sqrt(1.0 / input_size); 
 
     for (int i = 0; i < output_size; ++i)
         for (int j = 0; j < hidden_size; ++j)
@@ -78,7 +78,7 @@ void NeuralNetwork::train(const std::vector<Eigen::VectorXd>& X_train,
             Eigen::MatrixXd dW1 = dZ1 * x.transpose();
             Eigen::VectorXd db1 = dZ1;
 
-            // === Gradient Descent Step ===
+            // 梯度下降
             W2 -= learning_rate * dW2;
             b2 -= learning_rate * db2;
             W1 -= learning_rate * dW1;
